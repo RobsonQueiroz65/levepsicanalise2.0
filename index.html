@@ -261,5 +261,60 @@ img {
     height: auto; /* Isso manterá a proporção da imagem */
   }
 }
+/* Estilos padrão para telas maiores */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos para telas menores, como dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Tamanho de fonte menor para telas menores */
+    line-height: 1.3; /* Espaçamento entre linhas menor para telas menores */
+  }
+
+  .profile-section {
+    padding: 10px; /* Espaçamento menor para a seção de perfil */
+  }
+
+  .foto-principal {
+    width: 100px; /* Tamanho menor para a imagem do perfil */
+    height: 100px;
+  }
+
+  .footer-content {
+    font-size: 30px; /* Tamanho de fonte menor para os ícones sociais no rodapé */
+  }
+
+  .footer-image {
+    width: 30px; /* Tamanho menor para os ícones sociais no rodapé */
+    height: 30px;
+  }
+
+  .texto-insta {
+    font-size: 20px; /* Tamanho de fonte menor para o texto do Instagram no rodapé */
+    height: auto;
+    display: inline; /* Remova a configuração 'inline-block' para que o texto fique ao lado dos ícones sociais */
+    margin-left: 10px; /* Ajuste o espaçamento à esquerda para o texto */
+  }
+
+  .footer-content2 {
+    font-size: 20px; /* Tamanho de fonte menor para o número de telefone no rodapé */
+  }
+
+  .footer-image2 {
+    width: 20px; /* Tamanho menor para o ícone do WhatsApp no rodapé */
+    height: 20px;
+    margin-right: 5px; /* Ajuste o espaçamento à direita para o ícone */
+  }
+
+  .texto-whats {
+    font-size: 20px; /* Tamanho de fonte menor para o texto do WhatsApp no rodapé */
+    height: auto;
+    display: inline; /* Remova a configuração 'inline-block' para que o texto fique ao lado dos ícones sociais */
+    margin-left: 10px; /* Ajuste o espaçamento à esquerda para o texto */
+  }
+}
 
   </style>
